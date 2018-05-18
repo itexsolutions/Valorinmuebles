@@ -1,0 +1,21 @@
+<div class="container">
+  <mat-card>
+    <div class="regresar" [routerLink]="'/inicio'">
+      <i class="material-icons">
+        arrow_back
+      </i>Volver a inicio</div>
+    <div class="title">INICIO DE SESION</div>
+    <form>
+      <mat-form-field class="">
+        <input matInput placeholder="Correo">
+      </mat-form-field>
+      <mat-form-field class="">
+        <input matInput placeholder="Contraseña">
+      </mat-form-field>
+      <div class="actions">
+        <mat-checkbox>Recuerdame</mat-checkbox>
+        <button mat-raised-button color="primary">Entrar</button>
+      </div>
+    </form>
+  </mat-card>
+</div>

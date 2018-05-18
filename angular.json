@@ -24,13 +24,11 @@
             ],
             "styles": [
               "src/styles.css",
-              "assets/css/style.css",
-              "assets/css/site_global.css",
-              "assets/css/animate.css",
-              "../node_modules/font-awesome/css/font-awesome.min.css",
+              "src/assets/css/animate.css",
+              "node_modules/font-awesome/css/font-awesome.min.css"
             ],
             "scripts": [
-              "../node_modules/chart.js/dist/Chart.js"
+              "node_modules/chart.js/dist/Chart.js"
             ]
           },
           "configurations": {
